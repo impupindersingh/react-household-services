@@ -3,7 +3,7 @@ import "./Section.css";
 import woman from "../../../../images/woman.png";
 import mechanic from "../../../../images/mechanic.png";
 import plumber from "../../../../images/plumber.png";
-import rightline from "../../../../images/Group 59 (1).png";
+import rightline from "../../../../images/Group 59 (3).png";
 import leftline1 from "../../../../images/Group 70.png";
 import leftline2 from "../../../../images/Group 60.png";
 import leftline3 from "../../../../images/Group 59.png";
