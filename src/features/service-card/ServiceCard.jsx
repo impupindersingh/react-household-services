@@ -14,11 +14,11 @@ import { useNavigate } from 'react-router-dom';
 
 function ServiceCard() {
   const navigate = useNavigate();
-  const handleClick = (id) => {
+  const handleClick = (iid) => {
     navigate(
       {
         pathname: "/detailservice",
-        search: `?id=${id}`
+        search: `?id=${id}&iid=${iid}`
       }
     )
   }
@@ -34,7 +34,7 @@ function ServiceCard() {
         <div>
           {service.item.map((obj) => (
             <div key={obj.id} >
-              <div className="service" onClick={() => { handleClick(service.id) }}>
+              <div className="service" onClick={() => { handleClick(obj.id) }}>
                 <div className='image-name-icon'>
                   <img className='image-man' src={require(`../../images/service-page/${obj.imgsrc}`)} alt='pic' />
                   <p className='service-name'>{obj.name}</p>

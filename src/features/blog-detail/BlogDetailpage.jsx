@@ -6,7 +6,7 @@ import nextIcon from "../../images/blog/blog-card-next-icon.png";
 import Blogform from "./component/blogform/Blogform";
 import leftBackgroundLine from "../../images/blog/blogdetail-leftline.png";
 import rightBackgroundLine from "../../images/blog/blogdetail-rightline.png";
-import { LuReply } from 'react-icons/lu';
+import { LuReply } from "react-icons/lu";
 
 function BlogDetailpage() {
   const queryParams = new URLSearchParams(window.location.search);
@@ -18,8 +18,16 @@ function BlogDetailpage() {
   return (
     <div className="blog-detail-container">
       <div className="blog-detail-box">
-      <img src={leftBackgroundLine} alt="" className="blog-background-leftline"/>
-          <img src={rightBackgroundLine} alt="" className="blog-background-rightline"/>
+        <img
+          src={leftBackgroundLine}
+          alt=""
+          className="blog-background-leftline"
+        />
+        <img
+          src={rightBackgroundLine}
+          alt=""
+          className="blog-background-rightline"
+        />
         <div className="category-detail-box">
           <div className="quote-box">
             <p>{product.blogQuote}</p>
@@ -82,46 +90,39 @@ function BlogDetailpage() {
             <div className="comment-heading">
               <p>comments</p>
             </div>
-            <Comments/>
-            <Comments/>
-<Blogform/>
+            {product.commentsProfile.map((comment) => (
+              <div className="comment-detail-box">
+                <div className="profile-desc-box">
+                  <div>
+                    <img
+                      src={require(`../../images/blog/${comment.commentProfileImg}`)}
+                      alt="profile-pic"
+                    />
+                  </div>
+                  <div>
+                    <div className="profile-name">
+                      <p>{comment.profileName}</p>
+                    </div>
+                    <div className="comment-date">
+                      <p>{comment.commentDate}</p>
+                      <p>
+                        <LuReply className="reply-icon" />
+                        reply
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="comment-desc">
+                  <p>{comment.desc}</p>
+                </div>
+              </div>
+            ))}
+            <Blogform />
           </div>
         </div>
       ))}
     </div>
   );
-
-
-  function Comments(){
-    return(
-      <>
-      {product.blogProfile.map((comment)=>(
-        <div className="comment-detail-box">
-              <div className="profile-desc-box">
-                <div>
-                  <img
-                    src={require(`../../images/blog/${comment.commentProfileImg}`)}
-                    alt="profile-pic"
-                  />
-                </div>
-                <div>
-                  <div className="profile-name">
-                    <p>{comment.profileName}</p>
-                  </div>
-                  <div className="comment-date">
-                    <p>{comment.commentDate}</p>
-                    <p><LuReply className="reply-icon"/>reply</p>
-                  </div>
-                </div>
-              </div>
-              <div className="comment-desc">
-                <p>{comment.desc}</p>
-              </div>
-            </div>
-      ))}
-      </>
-    )
-  }
 }
 
 export default BlogDetailpage;
