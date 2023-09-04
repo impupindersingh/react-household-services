@@ -97,7 +97,7 @@ function ServiceCardDetail() {
                       </div>
                     </div>
                     <div className='member-img'>
-                      <img className='rev-pic' src={require(`../../images/service-page/${object.imgsrc}`)} alt='photo' />
+                      <img className='rev-pic' src={require(`../../images/service-page/${object.imgsrc}`)} alt='pic' />
                     </div>
                     <p className='member-nichols'>{data1.nichols}</p>
                     <p className='member-since'>MEMBER SINCE 05/20/2023</p>

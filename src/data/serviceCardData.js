@@ -19,7 +19,7 @@ const serviceCard = [
         detail:[
         {
           id: 1,
-          serviceselectedpic: "cleaning-group.png",
+          serviceselectedpic: "service-selected-pic.png",
           serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
 
         },
@@ -53,7 +53,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -86,7 +86,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -119,7 +119,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -152,7 +152,7 @@ const serviceCard = [
         detail:[
         { 
           id:1,
-          serviceselectedpic: "cleaning-group.png",
+          serviceselectedpic: "service-selected-pic.png",
           serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
 
         },],
@@ -185,7 +185,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -230,7 +230,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -266,7 +266,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -301,7 +301,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -336,7 +336,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -371,7 +371,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -405,7 +405,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -450,7 +450,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -486,7 +486,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -521,7 +521,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -556,7 +556,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -591,7 +591,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -625,7 +625,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -670,7 +670,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -706,7 +706,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -741,7 +741,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -776,7 +776,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -811,7 +811,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -845,7 +845,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -890,7 +890,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -926,7 +926,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -961,7 +961,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -996,7 +996,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1031,7 +1031,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1065,7 +1065,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1110,7 +1110,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1146,7 +1146,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1181,7 +1181,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1216,7 +1216,7 @@ const serviceCard = [
         detail:[
           {
             id:1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1251,7 +1251,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1285,7 +1285,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1330,7 +1330,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1366,7 +1366,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1401,7 +1401,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1436,7 +1436,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1471,7 +1471,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1505,7 +1505,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1549,7 +1549,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1585,7 +1585,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1620,7 +1620,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1655,7 +1655,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1690,7 +1690,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1724,7 +1724,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1767,7 +1767,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1801,7 +1801,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1834,7 +1834,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1867,7 +1867,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1900,7 +1900,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1934,7 +1934,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -1977,7 +1977,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2011,7 +2011,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2044,7 +2044,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2077,7 +2077,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2110,7 +2110,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2144,7 +2144,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2187,7 +2187,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2221,7 +2221,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2254,7 +2254,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2287,7 +2287,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2320,7 +2320,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2354,7 +2354,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2397,7 +2397,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2431,7 +2431,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2464,7 +2464,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2497,7 +2497,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2530,7 +2530,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2564,7 +2564,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2607,7 +2607,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2641,7 +2641,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2674,7 +2674,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2707,7 +2707,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2740,7 +2740,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2774,7 +2774,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2817,7 +2817,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2851,7 +2851,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2884,7 +2884,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2917,7 +2917,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2950,7 +2950,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -2984,7 +2984,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3027,7 +3027,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3061,7 +3061,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3094,7 +3094,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3127,7 +3127,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3160,7 +3160,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3194,7 +3194,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3237,7 +3237,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3271,7 +3271,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3304,7 +3304,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3337,7 +3337,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3370,7 +3370,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3404,7 +3404,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3447,7 +3447,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3481,7 +3481,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3514,7 +3514,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3547,7 +3547,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3580,7 +3580,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3614,7 +3614,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3658,7 +3658,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3692,7 +3692,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3725,7 +3725,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3758,7 +3758,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3791,7 +3791,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3825,7 +3825,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3868,7 +3868,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3902,7 +3902,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3935,7 +3935,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -3968,7 +3968,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -4001,7 +4001,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -4035,7 +4035,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -4078,7 +4078,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -4112,7 +4112,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -4145,7 +4145,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -4178,7 +4178,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -4211,7 +4211,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   
@@ -4245,7 +4245,7 @@ const serviceCard = [
         detail:[
           {
             id: 1,
-            serviceselectedpic: "cleaning-group.png",
+            serviceselectedpic: "service-selected-pic.png",
             serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
             
   

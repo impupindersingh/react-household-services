@@ -10,12 +10,12 @@ import { useNavigate } from "react-router-dom";
 function Card() {
   const navigate = useNavigate();
   const handleClick = (id) => {
-    let service = serviceCard.filter((obj) => obj.id === id); 
-    let serviceNameWithSpace = service[0].category.toLowerCase(); 
-    let serviceName = serviceNameWithSpace.replace(/\s+/g, '-'); 
+    // let service = serviceCard.filter((obj) => obj.id === id); 
+    // let serviceNameWithSpace = service[0].category.toLowerCase(); 
+    // let serviceName = serviceNameWithSpace.replace(/\s+/g, '-'); 
     navigate(
       {
-        pathname: `/${serviceName}`,
+        pathname: `/productservice`,
         search: `?id=${id}`
       }
     )
