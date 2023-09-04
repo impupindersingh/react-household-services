@@ -8,7 +8,7 @@ const serviceCard = [
 
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage cleanout service",
         nichols: "NICHOLAS WOODS",
@@ -18,97 +18,194 @@ const serviceCard = [
         price: "Rs.450 / hr",
         detail:[
         {
-          id:"1",
-          serviceselectedpic: "cleaning-product-images.png",
+          id: 1,
+          serviceselectedpic: "cleaning-group.png",
           serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
-          reviewphoto: "",
-          reviewname: "Peter Andrew",
-          reviewdate: "03/12/2023",
-          reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum",
-
-        },]
-
-      },
-      {
-        id: "2",
-        imgsrc: "younger-man.png",
-        name: "Garage cleanout service",
-        nichols: "NICHOLAS WOODS",
-        rating: "4.2",
-        notice: "1-Day",
-        warranty: "Full-warranty",
-        price: "Rs.450 / hr",
-        detail:[
-          {
-            id:"1",
-            serviceselectedpic: "cleaning-product-images.png",
-            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
-            reviewphoto: "",
-            reviewname: "Peter Andrew",
-            reviewdate: "03/12/2023",
-            reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum",
-  
-          },]
-      }, {
-        id: "3",
-        imgsrc: "younger-man.png",
-        name: "Garage cleanout service",
-        nichols: "NICHOLAS WOODS",
-        rating: "4.2",
-        notice: "1-Day",
-        warranty: "Full-warranty",
-        price: "Rs.450 / hr",
-        detail:[
-          {
-            id:"1",
-            serviceselectedpic: "cleaning-product-images.png",
-            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
-            reviewphoto: "",
-            reviewname: "Peter Andrew",
-            reviewdate: "03/12/2023",
-            reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum",
-  
-          },]
-      }, {
-        id: "4",
-        imgsrc: "younger-man.png",
-        name: "Garage cleanout service",
-        nichols: "NICHOLAS WOODS",
-        rating: "4.2",
-        notice: "1-Day",
-        warranty: "Full-warranty",
-        price: "Rs.450 / hr",
-        detail:[
-          {
-            id:"1",
-            serviceselectedpic: "cleaning-product-images.png",
-            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
-            reviewphoto: "",
-            reviewname: "Peter Andrew",
-            reviewdate: "03/12/2023",
-            reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum",
-  
-          },]
-      }, {
-        id: "5",
-        imgsrc: "younger-man.png",
-        name: "Garage cleanout service",
-        nichols: "NICHOLAS WOODS",
-        rating: "4.2",
-        notice: "1-Day",
-        warranty: "Full-warranty",
-        price: "Rs.450 / hr",
-        detail:
-        { 
-          id:"5",
-          serviceselectedpic: "cleaning-product-images.png",
-          serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
-          reviewphoto: "",
-          reviewname: "Peter Andrew",
-          reviewdate: "03/12/2023",
-          reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum",
 
         },
+      ],
+        reviews: [
+          {
+            id: 1,
+            reviewphoto: "younger-man.png",
+           reviewname: "Peter Andrew",
+           reviewdate: "03/12/2023",
+           reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+          },
+          {
+            id: 2,
+            reviewphoto: "younger-man.png",
+           reviewname: "Peter Andrew",
+           reviewdate: "03/12/2023",
+           reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+          }
+        ]
+      },
+      {
+        id: 2,
+        imgsrc: "younger-man.png",
+        name: "Garage cleanout service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      }, {
+        id: 3,
+        imgsrc: "younger-man.png",
+        name: "Garage cleanout service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      }, {
+        id: 4,
+        imgsrc: "younger-man.png",
+        name: "Garage cleanout service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      }, {
+        id: 5,
+        imgsrc: "younger-man.png",
+        name: "Garage cleanout service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+        { 
+          id:1,
+          serviceselectedpic: "cleaning-group.png",
+          serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+
+        },],
+        reviews: [
+          {
+            id: 1,
+            reviewphoto: "younger-man.png",
+           reviewname: "Peter Andrew",
+           reviewdate: "03/12/2023",
+           reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+          },
+          {
+            id: 2,
+            reviewphoto: "younger-man.png",
+           reviewname: "Peter Andrew",
+           reviewdate: "03/12/2023",
+           reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+          }
+        ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage cleanout service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -120,7 +217,7 @@ const serviceCard = [
     desc: "From Drips to Drains, We Tackle All Your Pains",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Plumber service",
         iconfirst: "chatbubble-ellipses.png",
@@ -130,10 +227,33 @@ const serviceCard = [
         notice: "1-Day",
         warranty: "Full-warranty",
         price: "Rs.450 / hr",
-
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Plumber service",
         iconfirst: "chatbubble-ellipses",
@@ -142,9 +262,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Plumber service",
         iconfirst: "chatbubble-ellipses",
@@ -153,9 +297,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Plumber service",
         iconfirst: "chatbubble-ellipses",
@@ -164,9 +332,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Plumber service",
         iconfirst: "chatbubble-ellipses",
@@ -175,7 +367,65 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Plumber service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -187,7 +437,7 @@ const serviceCard = [
     desc: "Deliciously Crafted, Memories to Be Savored",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage cookPic service",
         iconfirst: "chatbubble-ellipses.png",
@@ -196,10 +446,34 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage cookPic service",
         iconfirst: "chatbubble-ellipses",
@@ -208,9 +482,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage cookPic service",
         iconfirst: "chatbubble-ellipses",
@@ -219,9 +517,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage cookPic service",
         iconfirst: "chatbubble-ellipses",
@@ -230,9 +552,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage cookPic service",
         iconfirst: "chatbubble-ellipses",
@@ -241,7 +587,65 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage cookPic service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -253,7 +657,7 @@ const serviceCard = [
     desc: "Blooming Gardens, Brought to Life with Care",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Gardening service",
         iconfirst: "chatbubble-ellipses.png",
@@ -262,10 +666,34 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Gardening service",
         iconfirst: "chatbubble-ellipses",
@@ -274,9 +702,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Gardening service",
         iconfirst: "chatbubble-ellipses",
@@ -285,9 +737,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Gardening service",
         iconfirst: "chatbubble-ellipses",
@@ -296,9 +772,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Gardening service",
         iconfirst: "chatbubble-ellipses",
@@ -307,7 +807,65 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Gardening service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -319,7 +877,7 @@ const serviceCard = [
     desc: "Quality Repairs, Expert Hands You Can Trust",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Handyman service",
         iconfirst: "chatbubble-ellipses.png",
@@ -328,10 +886,34 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Handyman service",
         iconfirst: "chatbubble-ellipses",
@@ -340,9 +922,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Handyman service",
         iconfirst: "chatbubble-ellipses",
@@ -351,9 +957,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Handyman service",
         iconfirst: "chatbubble-ellipses",
@@ -362,9 +992,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Handyman service",
         iconfirst: "chatbubble-ellipses",
@@ -373,7 +1027,65 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Handyman service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -385,7 +1097,7 @@ const serviceCard = [
     desc: "Enhance Your Natural Beauty, Inside and Out",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Beauty service",
         iconfirst: "chatbubble-ellipses.png",
@@ -394,10 +1106,34 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Beauty service",
         iconfirst: "chatbubble-ellipses",
@@ -406,9 +1142,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Beauty service",
         iconfirst: "chatbubble-ellipses",
@@ -417,9 +1177,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Beauty service",
         iconfirst: "chatbubble-ellipses",
@@ -428,9 +1212,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id:1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Beauty service",
         iconfirst: "chatbubble-ellipses",
@@ -439,7 +1247,65 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Beauty service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -451,7 +1317,7 @@ const serviceCard = [
     desc: "Where Every Event is an Artful Masterpiece",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Event service",
         iconfirst: "chatbubble-ellipses.png",
@@ -460,43 +1326,34 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
-        imgsrc: "younger-man.png",
-        name: "Garage Event  service",
-        iconfirst: "chatbubble-ellipses",
-        iconsecound: "herat-icon.png",
-        nichols: "NICHOLAS WOODS",
-        rating: "4.2",
-        notice: "1-Day",
-        warranty: "Full-warranty",
-        price: "Rs.450 / hr"
-      }, {
-        id: "3",
-        imgsrc: "younger-man.png",
-        name: "Garage Event  service",
-        iconfirst: "chatbubble-ellipses",
-        iconsecound: "herat-icon.png",
-        nichols: "NICHOLAS WOODS",
-        rating: "4.2",
-        notice: "1-Day",
-        warranty: "Full-warranty",
-        price: "Rs.450 / hr"
-      }, {
-        id: "4",
-        imgsrc: "younger-man.png",
-        name: "Garage Event  service",
-        iconfirst: "chatbubble-ellipses",
-        iconsecound: "herat-icon.png",
-        nichols: "NICHOLAS WOODS",
-        rating: "4.2",
-        notice: "1-Day",
-        warranty: "Full-warranty",
-        price: "Rs.450 / hr"
-      }, {
-        id: "5",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Event  service",
         iconfirst: "chatbubble-ellipses",
@@ -506,6 +1363,169 @@ const serviceCard = [
         notice: "1-Day",
         warranty: "Full-warranty",
         price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      }, {
+        id: 3,
+        imgsrc: "younger-man.png",
+        name: "Garage Event  service",
+        iconfirst: "chatbubble-ellipses",
+        iconsecound: "herat-icon.png",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      }, {
+        id: 4,
+        imgsrc: "younger-man.png",
+        name: "Garage Event  service",
+        iconfirst: "chatbubble-ellipses",
+        iconsecound: "herat-icon.png",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      }, {
+        id: 5,
+        imgsrc: "younger-man.png",
+        name: "Garage Event  service",
+        iconfirst: "chatbubble-ellipses",
+        iconsecound: "herat-icon.png",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Event service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -516,7 +1536,7 @@ const serviceCard = [
     desc: "Your Child's Best Friend, When You're Not There",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Baby Sitterr service",
         iconfirst: "chatbubble-ellipses.png",
@@ -525,10 +1545,34 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Baby Sitter service",
         iconfirst: "chatbubble-ellipses",
@@ -537,9 +1581,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Baby Sitter service",
         iconfirst: "chatbubble-ellipses",
@@ -548,9 +1616,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Baby Sitter service",
         iconfirst: "chatbubble-ellipses",
@@ -559,9 +1651,33 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Baby Sitter service",
         iconfirst: "chatbubble-ellipses",
@@ -570,7 +1686,65 @@ const serviceCard = [
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Baby Sitterr service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -582,51 +1756,205 @@ const serviceCard = [
     desc: "Your Vision, Our Expert Installation",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Installation  service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Installation  service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Installation  service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Installation  service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Installation service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Installation service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -638,51 +1966,205 @@ const serviceCard = [
     desc: "Shielding Your Domain, Pest-Free Assurance",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Pest Control service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Pest Control service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Pest Control service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Pest Control service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Pest Control service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Pest Control service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -694,51 +2176,205 @@ const serviceCard = [
     desc: "Repair Experts, Breathing Life Back into Electronics",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Electronics  service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Electronics service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Electronics service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Electronics service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Electronics service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Electronics service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -750,51 +2386,205 @@ const serviceCard = [
     desc: "Your Trusted House Helpers, Simplifying Your Life",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage House Help service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage  House Help service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage  House Help service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage  House Help service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage  House Help service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage House Help service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -806,51 +2596,205 @@ const serviceCard = [
     desc: "Enabling Independence, Caring for Your Loved Ones",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Care Taker service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Care Taker service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Care Taker service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Care Taker service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Care Taker service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Care Taker service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -862,51 +2806,205 @@ const serviceCard = [
     desc: "A Safer Environment, Through Expert Disinfecting",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Disinfecting service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Disinfecting service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Disinfecting service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Disinfecting service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Disinfecting service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Disinfecting service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -918,51 +3016,205 @@ const serviceCard = [
     desc: "Bringing Dreams to Life, One Space at a Time",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Interior service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Interior service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Interior service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Interior service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Interior service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Interior service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -974,51 +3226,205 @@ const serviceCard = [
     desc: "Indulge in Bliss, Experience Our Spa Services",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Relax service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Relax service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Relax service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Relax service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Relax service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Relax service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -1030,51 +3436,205 @@ const serviceCard = [
     desc: "Your Perfect Event, Our Commitment",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Organizer service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Organizer service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Organizer service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Organizer service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Organizer service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Organizer service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
 
@@ -1087,51 +3647,205 @@ const serviceCard = [
     desc: "Your Learning Journey, Guided by the Best",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Training service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Training service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Training service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Training service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Training service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Training service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -1143,51 +3857,205 @@ const serviceCard = [
     desc: "Transforming Ideas into Art, with Our Expertise",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Artist service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Artist service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Artist service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Artist service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Artist service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Artist service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },
@@ -1199,51 +4067,205 @@ const serviceCard = [
     desc: "Picture-Perfect Memories, Crafted by Us",
     item: [
       {
-        id: "1",
+        id: 1,
         imgsrc: "younger-man.png",
         name: "Garage Photograph service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       },
       {
-        id: "2",
+        id: 2,
         imgsrc: "younger-man.png",
         name: "Garage Photograph service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "3",
+        id: 3,
         imgsrc: "younger-man.png",
         name: "Garage Photograph service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "4",
+        id: 4,
         imgsrc: "younger-man.png",
         name: "Garage Photograph service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }, {
-        id: "5",
+        id: 5,
         imgsrc: "younger-man.png",
         name: "Garage Photograph service",
         nichols: "NICHOLAS WOODS",
         rating: "4.2",
         notice: "1-Day",
         warranty: "Full-warranty",
-        price: "Rs.450 / hr"
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
+      },
+      {
+        id: 6,
+        imgsrc: "younger-man.png",
+        name: "Garage Photograph service",
+        nichols: "NICHOLAS WOODS",
+        rating: "4.2",
+        notice: "1-Day",
+        warranty: "Full-warranty",
+        price: "Rs.450 / hr",
+        detail:[
+          {
+            id: 1,
+            serviceselectedpic: "cleaning-group.png",
+            serviceselecteddesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero. Cras nec orci eget tortor fermentum tempor ac pellentesque metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed blandit dolor, eget convallis dui. Suspendisse interdum lectus elit, ut porttitor odio dignissim vitae. Integer faucibus efficitur gravida. Nulla rhoncus eleifend ante.",
+            
+  
+          },],
+          reviews: [
+            {
+              id: 1,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            },
+            {
+              id: 2,
+              reviewphoto: "younger-man.png",
+             reviewname: "Peter Andrew",
+             reviewdate: "03/12/2023",
+             reviewdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor , fermentum nisl eget lacinia gravida. Ut in scelerisque lectus. Nunc non imperdiet magna, fermentum convallis libero."
+            }
+          ]
       }
     ]
   },

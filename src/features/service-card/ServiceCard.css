@@ -1,4 +1,3 @@
-
 .service-full-cont {
     background-color: #f1f1f1;
     min-height: 401px;
@@ -10,7 +9,8 @@
     margin-left: 55px;
     padding-top: 108px;
 }
-.search-location{
+
+.search-location {
     margin-left: 263px;
     margin-top: 50px;
     position: absolute;
@@ -18,7 +18,6 @@
 
 .cleanings {
     color: #303030;
-    /* font-family: Lexend Deca; */
     font-size: 2.8125rem;
     font-style: normal;
     font-weight: 500;
@@ -43,7 +42,6 @@
 
 .dust-make {
     color: #A9A7A7;
-    /* font-family: Lexend Deca; */
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 300;
@@ -69,7 +67,7 @@
     border-radius: 0.3125rem;
     background: #FFF;
     box-shadow: 0px 0px 20px 0px #D9D9D9;
-    margin-bottom: 33px;
+    margin-bottom: 60px;
     margin-right: 223px;
     width: 45.5rem;
     height: 11rem;
@@ -100,14 +98,20 @@
 }
 .masge-img{
     height: 25px;
-    margin-left: 167px;
-    width:24px;
-    margin-top: 25px;
-}
+    margin-left: 126px;
+    width: 24px;
 
+}
+.custom-dot{
+    width: 4px;
+    height: 4px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-right: 12px;
+}
 .heart-img{
     height: 30px;
-    margin-top: 24px;
     margin-left: 8px;
 
 }
@@ -127,27 +131,27 @@
     display: flex;
     justify-content: space-around;
     color: #BCBCBC;
-    /* font-family: Lexend Deca; */
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-left: 143px;
-    margin-top: -40px;
+    /* margin-top: -31px; */
     border-right: 4px solid green;
     position: relative;
 }
 
 .service-rating-nichols {
     display: flex;
-    gap: 33px;
+    gap: 6px;
     align-items: center;
+    margin-top: -79px;
+    margin-left: 181px;
 
 }
 
 .service-clean {
     color: #B8B8B8;
-    /* font-family: Lexend Deca; */
     font-size: 0.8125rem;
     font-style: normal;
     font-weight: 300;
@@ -157,7 +161,6 @@
 
 .service-nichols {
     color: #000;
-    /* font-family: Lexend Deca; */
     font-size: 0.8125rem;
     font-style: normal;
     font-weight: 400;
@@ -168,34 +171,26 @@
     display: flex;
 }
 
-.image-man {
+ .image-man {
     border-radius: 64px;
     border-radius: 64px;
     margin-top: 33px;
     margin-left: 30px;
     width: 7rem;
 }
-
 .service-name {
     color: #000;
-    /* font-family: Lexend Deca; */
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     padding-left: 36px;
+    position: relative;
 }
 
-
-.service-rating-nichols {
-    margin-top: -79px;
-    margin-left: 181px;
-    position: absolute;
-}
 
 .service-price {
     color: #21856B;
-    /* font-family: Lexend Deca; */
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
@@ -207,7 +202,6 @@
 
 .service-rating {
     color: #FFC107;
-    /* font-family: Lexend Deca; */
     font-size: 0.625rem;
     font-style: normal;
     font-weight: 400;
@@ -222,13 +216,11 @@
     left: 313px;
     margin-top: 10px;
     color: #BCBCBC;
-    /* font-family: Lexend Deca; */
     font-size: 0.625rem;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-}
-
+} 
 
 
 
@@ -248,6 +240,16 @@
 .huey {
     margin-left: 18px;
     margin-top: 16px;
+}
+
+
+.heart-massage-icon{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 494px;
+    gap: 8px;
+    margin-top:30px;
 }
 
 .polygon {
@@ -315,6 +317,8 @@
 .form {
     padding-left: 162px;
     padding-top: 26px;
+    display: flex;
+    gap:70px;
 
 }
 
@@ -393,8 +397,12 @@
     text-transform: uppercase;
     border-bottom: 2px solid #A8A8A8;
     max-width: 344px;
-    padding-top: 20px;
+   
 
+}
+.vol{
+    width: 344px;
+    background-color: red; 
 }
 
 .Availabity P {
@@ -418,8 +426,7 @@
 
 .warranty p {
     margin-top: 37px;
-    border-bottom: 2
-    px solid #A8A8A8;
+    border-bottom: 2 px solid #A8A8A8;
     max-width: 344px;
 }
 
@@ -440,30 +447,30 @@
 }
 
 .example-thumb {
-background-color: #B8B8B8 !important;
-width: 37px;
-text-align: center;
-border-radius: 53px;
-height: 37px;
-line-height: 36px;  
+    background-color: #B8B8B8 !important;
+    width: 37px;
+    text-align: center;
+    border-radius: 53px;
+    height: 37px;
+    line-height: 36px;
 }
 
-.form {
+/* .form {
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .slider-class {
     margin-top: 42px;
     margin-bottom: 73px;
 }
 
-.example-thumb{
+.example-thumb {
     top: -11px !important;
 
 }
-.example-track{
+
+.example-track {
     left: 316px;
     top: -22px !important;
 }
-

@@ -5,20 +5,19 @@ import RightSide from "../../images/service-page/right-side-service-page.png";
 import { Searchbar } from '../../resusable-components/resusable-components-exporter';
 import serviceCard from "../../data/serviceCardData";
 import Polygon from "../../images/service-page/polygon-icon.png";
-import ReactSlider from 'react-slider';
 import MasgeIcon from "../../images/service-page/massage-icon.png";
 import HeartIcon from "../../images/service-page/heart-icon.png";
-import Calendar from '../../images/service-page/calendar-icon.png'
+import Calendar from '../../images/service-page/calendar-icon.png';
 import Guarantee from "../../images/service-page/guarantee-icon.png";
 import { useNavigate } from 'react-router-dom';
 
 function ServiceCard() {
   const navigate = useNavigate();
-  const handleClick = (id) => {
+  const handleClick = (iid) => {
     navigate(
       {
         pathname: "/detailservice",
-        search: `?id=${id}`
+        search: `?id=${id}&iid=${iid}`
       }
     )
   }
@@ -34,17 +33,20 @@ function ServiceCard() {
         <div>
           {service.item.map((obj) => (
             <div key={obj.id} >
-              <div className="service" onClick={() => { handleClick(service.id) }}>
+              <div className="service" onClick={() => { handleClick(obj.id) }}>
                 <div className='image-name-icon'>
+
                   <img className='image-man' src={require(`../../images/service-page/${obj.imgsrc}`)} alt='pic' />
                   <p className='service-name'>{obj.name}</p>
-                  <img className="masge-img" src={MasgeIcon} alt='pic' />
-                  <img className="heart-img" src={HeartIcon} alt='pic' />
+                  <div className="heart-massage-icon">
+                    <img className="masge-img" src={MasgeIcon} alt='pic' />
+                    <img className="heart-img" src={HeartIcon} alt='pic' /></div>
                 </div>
                 <div className="service-rating-nichols">
-                  <p className='service-nichols'>{obj.nichols}
-                  </p>
+                  <p className='service-nichols'>{obj.nichols}</p>
+                  <div className="custom-dot"></div>
                   <p className='service-clean'>{service.category}</p>
+                  <div className="sec-dot"></div>
                   <p className='service-rating'>Rating: {obj.rating}</p>
                   <p className='service-people'>{obj.peoplerating}</p>
                 </div>
@@ -55,6 +57,7 @@ function ServiceCard() {
                   <p className='service-warranty'> {obj.warranty}</p>
                   <p className='service-price'> {obj.price}</p>
                 </div>
+
               </div>
             </div>
           ))
@@ -79,7 +82,8 @@ function ServiceCard() {
           </div>
           <div className="date-clon">
             <p className='short-by'>SORT BY</p>
-            <div className='date-under'>Date</div>
+            <div className='date-under'>Date
+              <div className='date-under-line'></div></div>
             <img className='polygon' src={Polygon} alt='pic' />
           </div>
         </div>
@@ -92,17 +96,11 @@ function ServiceCard() {
               <div className="secnd-under-line"></div>
               <div className='third-under-line'></div></div>
             <div className="slider-class">
-              <ReactSlider
-                className="horizontal-slider"
-                thumbClassName="example-thumb"
-                trackClassName="example-track"
-                defaultValue={[0, 10]}
-                ariaLabel={['Lower thumb', 'Upper thumb']}
-                ariaValuetext={state => `Thumb value ${state.valueNow}`}
-                renderThumb={(props, state) => <div {...props}>{state.valueNow}</div>}
-                pearling
-                minDistance={10}
-              /></div>
+              <form action="/action_page.php">
+                <label for="vol"></label>
+                <input type="range" className="vol" name="vol" min="0" max="50">
+                </input>
+              </form></div>
             <div className="Availabity"><p>Availabity</p></div>
             <div className="warranty"><p>Warranty</p></div>
             <button className='filter-btn' type="button">Filter</button>
