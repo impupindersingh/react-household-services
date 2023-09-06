@@ -1,0 +1,141 @@
+@import url("https://fonts.google.com/share?selection.family=Inter:wght@200");
+
+.blog-container{
+    padding-top: 118px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+.blog-card-box{
+    max-width: 342px;
+max-height: 465px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px #D9D9D9;
+}
+
+.blog-img-box{
+    max-width: 342px;
+max-height: 232.969px;
+border-radius: 5px;
+object-fit: cover;
+overflow: hidden;
+}
+
+.blog-quote-box{
+    max-width: 127px;
+max-height: 23px;
+border-radius: 7px;
+background: rgba(33, 133, 107, 0.25);
+margin-top: 18px;
+margin-left: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.blog-quote-box p{
+    color: #21856B;
+font-family: "Inter", sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.blog-heading-box{
+    max-width: 290px;
+    max-height: 54px;
+    margin-left: 20px;
+}
+
+.blog-heading-box p{
+    color: #000;
+font-family: "Inter" , sans-serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 1px;
+margin-top: 15px;
+}
+
+.blog-desc-box{
+    max-width: 272px;
+max-height: 42px;
+margin-left: 20px;
+}
+
+.blog-desc-box p{
+    color: #BCBCBC;
+font-size: 13px;
+font-style: normal;
+font-weight: 200;
+line-height: 25px; 
+}
+
+.hrline{
+    border: none;
+    border-top: 0.5px solid #D9D9D9;
+    margin-bottom: 0;
+}
+
+.blog-author-box{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.blog-author-box::after{
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 4px;
+    height: 80%;
+    background-color: #20856A;
+}
+
+.author-name{
+    color: #BCBCBC;
+text-align: center;
+font-family: "Inter", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+margin-left: 20px;
+}
+
+.custom-dot{
+    width: 4px;
+    height:4px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.author-comment{
+    color: #B8B8B8;
+font-size: 13px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+
+.blog-next-icon {
+    margin-left: 32px;
+    width: 28px;
+    height: 28px;
+    background-color: #21856b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
