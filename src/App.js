@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Footer } from "./resusable-components/resusable-components-exporter";
-import { Addrequest, Addservice,BlogDetailPage, Blogpage, Home, ServiceCard, ServiceCardDetail } from "./features/features-exporter";
+import { Addrequest, Addservice,BlogDetailPage, Blogpage, Favorites, Home, Professional, Request, ServiceCard, ServiceCardDetail, Setting } from "./features/features-exporter";
 import { Routes,Route } from "react-router-dom";
 
 
@@ -14,10 +14,15 @@ function App() {
     <Route path='/' element={<Home/>}/>
     <Route path="/productservice" element={<ServiceCard/>}/>
     <Route path='/detailservice' element={<ServiceCardDetail/>} />
+    <Route path='/services'/>
+    <Route path='/requests' element={<Request/>}/>
+    <Route path='/professional' element={<Professional/>}/>
     <Route path='/addservice' element={<Addservice/>}/>
     <Route path='/addrequest' element={<Addrequest/>}/>
-    <Route path='/Blog' element={<Blogpage/>}/>
-    <Route path='/Blog/blogdetail' element={<BlogDetailPage/>}/>
+    <Route path='/blog' element={<Blogpage/>}/>
+    <Route path='/blog/blogdetail' element={<BlogDetailPage/>}/>
+    <Route path='/favorites' element={<Favorites/>}/>
+    <Route path='/setting' element={<Setting/>}/>
     </Routes>
         <Footer />
       </div>

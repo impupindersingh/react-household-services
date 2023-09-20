@@ -1,0 +1,197 @@
+.favorites-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.favorites-box {
+  width: 90%;
+  display: flex;
+  gap: 40px;
+}
+
+.favorites-pages-box {
+  max-width: 219px;
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+  padding: 26px 90px 7px 23px;
+  display: flex;
+  flex-direction: column;
+}
+
+.favorites-pages-box a {
+  color: #686868;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.favorites-pages-box a.active {
+  color: #21856b;
+}
+
+.favorites-desc-box {
+  position: relative;
+  width: 100%;
+}
+
+.favorites-desc-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 6px;
+  background-color: #20856a;
+}
+
+.favorites-heading p {
+  color: #303030;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.favorite-card-box {
+  max-width: 885px;
+  max-height: 176px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px #d9d9d9;
+  margin-bottom: 48px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  display: flex;
+  gap: 43px;
+  position: relative;
+}
+
+.favorite-card-box::after {
+  content: "";
+  position: absolute;
+  top: 105px;
+  right: 0;
+  width: 5px;
+  height: 41px;
+  background-color: #20856a;
+}
+
+.favorite-profile-pic {
+  max-width: 112px;
+  max-height: 112px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 27px;
+}
+
+.favorite-serviceDesc-box {
+  display: flex;
+  align-items: center;
+  gap: 311px;
+}
+
+.favorite-serviceName p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.favorite-message-icon {
+  margin-top: 2px;
+}
+
+.heart-icon {
+  color: red;
+  font-size: 20px;
+  margin-left: 13px;
+}
+
+.favorite-categoryName-box {
+  display: flex;
+  align-items: center;
+}
+
+.favorite-profileName {
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.favorite-dot-box {
+  width: 4px;
+  height: 4px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.favorite-category {
+  color: #b8b8b8;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.favorite-rating {
+  color: #ffc107;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.favorite-rating span {
+  color: #bcbcbc;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+.favorite-noticeWarranty-box {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+
+.favorite-notice-box,
+.favorite-warranty-box {
+  display: flex;
+  align-items: center;
+}
+
+.favorite-notice,
+.favorite-warranty {
+  color: #bcbcbc;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 18px;
+}
+
+.favorite-price {
+  margin-left: 150px;
+  color: #21856b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

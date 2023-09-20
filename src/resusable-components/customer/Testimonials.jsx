@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Testimonials.css"
-import TestimonialLeftLines from "../../images/testimonial-left-lines.png";
-import TestimonialRightLines from "../../images/testimonial-right-lines.png";
-import TestimonialSampleImage from "../../images/testimonial-sample-image.png"
-import TestimonialSampleRating from "../../images/testimonial-sample-rating.png"
+import TestimonialLeftLines from "../../images/home/testimonial/testimonial-left-lines.png";
+import TestimonialRightLines from "../../images/home/testimonial/testimonial-right-lines.png";
+import TestimonialSampleImage from "../../images/home/testimonial/testimonial-sample-image.png"
+import TestimonialSampleRating from "../../images/home/testimonial/testimonial-sample-rating.png"
 import { GrNext } from 'react-icons/gr'
 import { GrPrevious } from 'react-icons/gr'
 

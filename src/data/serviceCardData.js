@@ -5,7 +5,8 @@ const serviceCard = [
     alt: "cleaningPic",
     category: "cleaning",
     desc: "From Dust to Delight, We Make It Right",
-
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -215,6 +216,8 @@ const serviceCard = [
     alt: "plumberPic",
     category: "Plumber",
     desc: "From Drips to Drains, We Tackle All Your Pains",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -435,6 +438,8 @@ const serviceCard = [
     alt: "cookPic",
     category: "Cook",
     desc: "Deliciously Crafted, Memories to Be Savored",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -655,6 +660,8 @@ const serviceCard = [
     alt: "gardeningPic",
     category: "Gardening",
     desc: "Blooming Gardens, Brought to Life with Care",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -875,6 +882,8 @@ const serviceCard = [
     alt: "handymanPic",
     category: "Handyman",
     desc: "Quality Repairs, Expert Hands You Can Trust",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -1095,6 +1104,8 @@ const serviceCard = [
     alt: "beautyPic",
     category: "Beauty",
     desc: "Enhance Your Natural Beauty, Inside and Out",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -1315,6 +1326,8 @@ const serviceCard = [
     alt: "plannerPic",
     category: "Event Planner",
     desc: "Where Every Event is an Artful Masterpiece",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -1534,6 +1547,8 @@ const serviceCard = [
     icon: "babysitter-icon.png",
     category: "Baby Sitter",
     desc: "Your Child's Best Friend, When You're Not There",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -1754,6 +1769,8 @@ const serviceCard = [
     alt: "installationPic",
     category: "Installation Help",
     desc: "Your Vision, Our Expert Installation",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -1964,6 +1981,8 @@ const serviceCard = [
     alt: "pestControlPic",
     category: "Pest Control",
     desc: "Shielding Your Domain, Pest-Free Assurance",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -2174,6 +2193,8 @@ const serviceCard = [
     alt: "repairPic",
     category: "Electronics Repair",
     desc: "Repair Experts, Breathing Life Back into Electronics",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -2384,6 +2405,8 @@ const serviceCard = [
     alt: "househelpPic",
     category: "House Help",
     desc: "Your Trusted House Helpers, Simplifying Your Life",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -2594,6 +2617,8 @@ const serviceCard = [
     alt: "careTakerPic",
     category: "Care Taker",
     desc: "Enabling Independence, Caring for Your Loved Ones",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -2804,6 +2829,8 @@ const serviceCard = [
     alt: "DisinfectingPic",
     category: "Disinfecting",
     desc: "A Safer Environment, Through Expert Disinfecting",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -3014,6 +3041,8 @@ const serviceCard = [
     alt: "DesignerPic",
     category: "Interior Designer",
     desc: "Bringing Dreams to Life, One Space at a Time",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -3224,6 +3253,8 @@ const serviceCard = [
     alt: "RelaxPic",
     category: "Relax",
     desc: "Indulge in Bliss, Experience Our Spa Services",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -3434,6 +3465,8 @@ const serviceCard = [
     alt: "OrganizerPic",
     category: "Event Organizer",
     desc: "Your Perfect Event, Our Commitment",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -3645,6 +3678,8 @@ const serviceCard = [
     alt: "TutorPic",
     category: "Training and Tutor",
     desc: "Your Learning Journey, Guided by the Best",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -3855,6 +3890,8 @@ const serviceCard = [
     alt: "ArtistPic",
     category: "Artist",
     desc: "Transforming Ideas into Art, with Our Expertise",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,
@@ -4065,6 +4102,8 @@ const serviceCard = [
     alt: "photographyPic",
     category: "Photography",
     desc: "Picture-Perfect Memories, Crafted by Us",
+    joinDate:"05/20/2023",
+    experience:"6-7",
     item: [
       {
         id: 1,

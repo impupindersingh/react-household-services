@@ -2,18 +2,22 @@ import { useEffect } from "react";
 import ReactDom from "react-dom";
 import React from "react";
 import "./SignIn.css";
-import close_circle from "../../images/close-circle.png";
+import close_circle from "../../images/sign-in/close-circle.png";
 import { NavLink } from "react-router-dom";
 
-function SignIn({ closeModal }) {
+function SignIn({ closeModal, toggleNavbarDropdown }) {
   useEffect(() => {
     document.body.style.overflowY = "hidden";
-  
+
     return () => {
-     document.body.style.overflowY ="scroll";
-    }
-  }, [])
-  
+      document.body.style.overflowY = "scroll";
+    };
+  }, []);
+
+  const handleFilterClick = (e) => {
+    toggleNavbarDropdown(e.preventDefault());
+  };
+
   return ReactDom.createPortal(
     <>
       <div className="modal-wrapper" onClick={closeModal}></div>
@@ -32,11 +36,11 @@ function SignIn({ closeModal }) {
                 <p>password</p>
                 <input type="password" />
               </div>
-              <div className='forgot-link'>
-              <NavLink >forget password?</NavLink>
+              <div className="forgot-link">
+                <NavLink>forget password?</NavLink>
               </div>
               <div className="filter-btn">
-                <button>filter</button>
+                <button onClick={handleFilterClick}>filter</button>
               </div>
               <div className="signup-box">
                 <p>
@@ -54,7 +58,7 @@ function SignIn({ closeModal }) {
         </div>
       </div>
     </>,
-    document.getElementById('myPortalModal')
+    document.getElementById("myPortalModal")
   );
 }
 

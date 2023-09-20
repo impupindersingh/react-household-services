@@ -1,9 +1,9 @@
 import React from 'react';
 import './ServiceStep.css';
-import stepOne from "../../../../images/group-one.png";
-import stepTow from "../../../../images/group-tow.png";
-import stepThree from "../../../../images/group-three.png";
-import servciceStep from "../../../../images/service-step-right-line.png"
+import stepOne from "../../../../images/home/service-step/group-one.png";
+import stepTow from "../../../../images/home/service-step/group-tow.png";
+import stepThree from "../../../../images/home/service-step/group-three.png";
+import servciceStep from "../../../../images/home/service-step/service-step-right-line.png"
 
 function ServiceStep() {
   return (

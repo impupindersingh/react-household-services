@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import React from "react";
 import "./SlideCard.css";
-import DaskGroup from "../../images/dask-group.png";
-import SlideRight from "../../images/slide-right.png";
-import CheckList from "../../images/check-list.png"
-import Massage from "../../images/chat.png"
-import TelePhone from "../../images/telephone.png"
+import DaskGroup from "../../images/home/slider/dask-group.png";
+import SlideRight from "../../images/home/slider/slide-right.png";
+import CheckList from "../../images/home/slider/check-list.png"
+import Massage from "../../images/home/slider/chat.png"
+import TelePhone from "../../images/home/slider/telephone.png"
 
 const items = [
   {
@@ -53,7 +53,7 @@ const items = [
 const Card = (props) => {
   return (
     <li className="card">
-   <span class="material-icons">{props.icon}</span>
+   <span className="material-icons">{props.icon}</span>
     <img className="check-list-img" src={CheckList} alt="checklist"/>
     <div className="rating-number">
       <p className="card-rating">{props.rating}</p>

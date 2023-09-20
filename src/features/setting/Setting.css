@@ -1,0 +1,138 @@
+@import url("https://fonts.google.com/share?selection.family=Inter:wght@200");
+
+.setting-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.setting-box {
+  width: 90%;
+  display: flex;
+  gap: 40px;
+}
+
+.pages-box {
+  max-width: 219px;
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+  padding: 26px 90px 7px 23px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pages-box a {
+  color: #686868;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.pages-box a.active {
+  color: #21856b;
+}
+
+.setting-desc-box {
+  position: relative;
+  width: 100%;
+  padding-bottom: 106px;
+}
+
+.setting-desc-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 6px;
+  background-color: #20856a;
+}
+
+.setting-heading p {
+  color: #303030;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.setting-images-box p,
+.setting-name-box p,
+.setting-email-box p,
+.setting-rate-box p,
+.setting-availability-box p,
+.setting-exp-box p,
+.setting-info-box p,
+.setting-pass-box p {
+  color: #707070;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.setting-name-box,
+.setting-email-box,
+.setting-rate-box,
+.setting-availability-box,
+.setting-exp-box,
+.setting-info-box,
+.setting-pass-box {
+  margin-top: 40px;
+}
+
+.setting-input-box,
+.setting-select-box {
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #a5a5a5;
+  font-size: 20px;
+}
+
+.custom-setting-textarea {
+  width: 100%;
+  height: 180px;
+  border-radius: 5px;
+  border: 1px solid #a5a5a5;
+  resize: none;
+  font-size: 20px;
+}
+
+.setting-image-btn {
+  padding: 10px 73px;
+  border-radius: 5px;
+  border: none;
+  background: #dbdbdb;
+  color: #5f5f5f;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.setting-changes-btn {
+  margin-top: 50px;
+  padding: 13px 78px;
+  border-radius: 10px;
+  border: 1px solid #21856b;
+  background: #21856b;
+  box-shadow: 0px 0px 10px 0px #21856b;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  cursor: pointer;
+}

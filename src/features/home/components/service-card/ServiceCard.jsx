@@ -1,10 +1,10 @@
 import React from 'react'
 import "./ServiceCard.css";
-import maskGroup from "../../../../images/mask-group.png";
-import taskGroup from '../../../../images/task-group.png';
-import lineTask from '../../../../images/line-task.png';
-import leftDesign from "../../../../images/left-design.png";
-import rightDesign from "../../../../images/card-left.png";
+import maskGroup from "../../../../images/home/service-card/mask-group.png";
+import taskGroup from '../../../../images/home/service-card/task-group.png';
+import lineTask from '../../../../images/home/service-card/line-task.png';
+import leftDesign from "../../../../images/home/service-card/left-design.png";
+import rightDesign from "../../../../images/home/service-card/card-left.png";
 
 const Section = ({ imageURL, heading, desc, btnContent }) => {
   return <div className="request">

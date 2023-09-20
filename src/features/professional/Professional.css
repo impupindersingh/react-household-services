@@ -1,0 +1,340 @@
+.profession-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profession-search-container {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.professionBackLine {
+  position: absolute;
+  right: 0;
+  top: -40px;
+}
+
+.profession-search-box {
+  position: absolute;
+  top: 40px;
+}
+
+.profession-desc-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 89px;
+}
+
+.profession-desc-box {
+  width: 92%;
+  display: flex;
+  gap: 70px;
+}
+
+.profession-form-text1,
+.profession-form-text2,
+.profession-form-text3 {
+  color: #707070;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.profession-form-text2 {
+  margin-top: 50px;
+}
+
+.profession-form-text3 {
+  margin-top: 35px;
+}
+
+.text-input1,
+.text-input2 {
+  width: 147px;
+  border: none;
+  border-bottom: 1px solid #b8b8b8;
+  font-size: 18px;
+}
+
+.text-input1 {
+  margin-right: 40px;
+}
+
+.profession-select-input {
+  width: 344px;
+  border: none;
+  border-bottom: 1px solid #b8b8b8;
+  font-size: 18px;
+  height: 25px;
+}
+
+.range-slider-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.range-slider {
+  width: 315px;
+}
+
+.custom-slider .rc-slider-handle {
+  width: 28px;
+  height: 28px;
+  background-color: #f7f7f7;
+  border-color: #b8b8b8;
+  margin-top: -12px;
+}
+
+.custom-slider .rc-slider-handle:hover {
+  border-color: #b8b8b8;
+}
+
+.custom-slider .rc-slider-track {
+  height: 5px;
+  background-color: #21856b;
+}
+
+.profession-filter-btn {
+  padding: 13px 137px;
+  margin-top: 48px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  border: 1px solid #21856b;
+  background-color: #21856b;
+  box-shadow: 0px 0px 10px 0px #21856b;
+  cursor: pointer;
+}
+
+.profession-right-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profession-result-box {
+  color: #707070;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.profession-date-box {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.profession-date-box p {
+  color: #707070;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.profession-date-box select {
+  width: 150px;
+  border: none;
+  border-bottom: 1px solid #b8b8b8;
+  height: 25px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #707070;
+  text-transform: capitalize;
+}
+
+.custom-select,
+.profession-select-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("../../images/professional/dropdown-icon.png");
+  background-size: 11px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 20px;
+}
+
+.profession-card-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 47px;
+  margin-top: 30px;
+}
+
+.profession-card {
+  width: 342px;
+  height: 446px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px #d9d9d9;
+}
+
+.profession-rating-check-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 21px 24px 0 24px;
+}
+
+.profession-rating {
+  display: flex;
+  align-items: center;
+}
+
+.profession-rating p {
+  color: #ffc107;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.profession-image-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.profession-profile-pic {
+  max-width: 130px;
+  max-height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+}
+
+.profession-name-box {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.profession-name-box p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.profession-member-box {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.profession-member-box p {
+  color: #bcbcbc;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.profession-demand-graph-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.profession-demand,
+.profession-graph {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profession-demand p,
+.profession-graph p {
+  color: #707070;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.custom-hr-line {
+  border: none;
+  border-top: 0.5px solid #d9d9d9;
+  margin-bottom: 0;
+}
+
+.profession-rate-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 26px;
+  position: relative;
+}
+
+.profession-rate-box p {
+  color: #21856b;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.profession-rate-box::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 4px;
+  height: 41px;
+  background-color: #21856b;
+}
+
+.profession-next-pages-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 50px;
+}
+
+.profession-next-pages-btn p {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.profession-next-icon {
+  width: 22px;
+  height: 22.37px;
+  padding-top: 5px;
+  cursor: pointer;
+}

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Card.css"
 import serviceCard from "../../data/serviceCardData";
-import nextIcon from '../../images/service-card-next-icon.png';
-import exploreNextIcon from '../../images/explore-btn-next-icon.png';
+import nextIcon from '../../images/home/card/service-card-next-icon.png';
+import exploreNextIcon from '../../images/home/card/explore-btn-next-icon.png';
 import Searchbar from "../searchbar/Searchbar";
 import { useNavigate } from "react-router-dom";
 
@@ -10,9 +10,6 @@ import { useNavigate } from "react-router-dom";
 function Card() {
   const navigate = useNavigate();
   const handleClick = (id) => {
-    // let service = serviceCard.filter((obj) => obj.id === id); 
-    // let serviceNameWithSpace = service[0].category.toLowerCase(); 
-    // let serviceName = serviceNameWithSpace.replace(/\s+/g, '-'); 
     navigate(
       {
         pathname: `/productservice`,
@@ -34,7 +31,7 @@ function Card() {
 
           <div key={service.id} className="card-box">
             <div className="icon-box">
-              <img src={require(`../../images/${service.icon}`)} alt={service.alt} className="service-icon" />
+              <img src={require(`../../images/home/card/${service.icon}`)} alt={service.alt} className="service-icon" />
             </div>
             <div className="service-heading">
               <h3>{service.category}</h3>

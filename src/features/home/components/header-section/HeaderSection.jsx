@@ -1,14 +1,14 @@
 import React from "react";
-import "./Section.css";
-import woman from "../../../../images/woman.png";
-import mechanic from "../../../../images/mechanic.png";
-import plumber from "../../../../images/plumber.png";
-import rightline from "../../../../images/Group 59 (3).png";
-import leftline1 from "../../../../images/Group 70.png";
-import leftline2 from "../../../../images/Group 60.png";
-import leftline3 from "../../../../images/Group 59.png";
+import "./HeaderSection.css";
+import woman from "../../../../images/home/header-section/woman.png";
+import mechanic from "../../../../images/home/header-section/mechanic.png";
+import plumber from "../../../../images/home/header-section/plumber.png";
+import rightline from "../../../../images/home/header-section/right-background-line.png";
+import leftline1 from "../../../../images//home/header-section/leftline1.png";
+import leftline2 from "../../../../images/home/header-section/leftline2.png";
+import leftline3 from "../../../../images/home/header-section/leftline3.png";
 
-function Section() {
+function HeaderSection() {
   return (
     <div className="box">
       <div className="box-1">
@@ -59,4 +59,4 @@ function Section() {
   );
 }
 
-export default Section;
+export default HeaderSection;
