@@ -10,3 +10,4 @@ export {default as Favorites} from "./favorites/Favorites";
 export {default as Setting} from "./setting/Setting";
 export {default as Professional} from "./professional/Professional";
 export {default as Request} from "./request/Request";
+export {default as Service} from "./service/Service"

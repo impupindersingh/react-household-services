@@ -180,6 +180,10 @@
 
 .request-card-box {
   margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 47px;
 }
 
 .request-card {
@@ -194,7 +198,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 25px 32px 0 32px;
+  margin: 0 32px 0 32px;
 }
 
 .request-desc-name-box p {
